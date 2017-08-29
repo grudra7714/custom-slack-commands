@@ -1,0 +1,56 @@
+{
+  "name": "custom-slack-commands",
+  "version": "0.0.0",
+  "description": "Set of useful slack commands",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node dist/index.js"
+  },
+  "keywords": [
+    "slack"
+  ],
+  "author": "Rudra Gupta, Krumware LLC.",
+  "license": "ISC",
+  "dependencies": {
+    "@slack/client": "^3.12.0",
+    "async": "^2.1.5",
+    "bluebird": "^3.4.7",
+    "body-parser": "^1.15.2",
+    "chance": "^1.0.6",
+    "connect-redis": "^3.2.0",
+    "cookie-parser": "^1.4.3",
+    "debug": "^2.2.0",
+    "express": "^4.14.0",
+    "express-session": "^1.15.1",
+    "fs": "0.0.1-security",
+    "geolib": "^2.0.22",
+    "github": "^9.0.0",
+    "https": "^1.0.0",
+    "leaflet-routing-machine": "^3.2.5",
+    "method-override": "^2.3.7",
+    "mongoose": "^4.8.5",
+    "morgan": "^1.7.0",
+    "nats": "^0.7.6",
+    "path": "^0.12.7",
+    "randomstring": "^1.1.5",
+    "redis": "^2.6.5",
+    "request-promise": "^4.2.1",
+    "socket.io": "^1.7.3",
+    "socket.io-client": "^1.7.3",
+    "socket.io-redis": "^4.0.0",
+    "textbelt": "0.0.3",
+    "twilio": "^2.11.1",
+    "uuid": "^3.0.1"
+  },
+  "devDependencies": {
+    "@types/body-parser": "0.0.33",
+    "@types/debug": "0.0.29",
+    "@types/express": "^4.0.33",
+    "@types/morgan": "^1.7.32",
+    "@types/node": "^6.0.46",
+    "gulp": "^3.9.1",
+    "gulp-typescript": "^3.1.1",
+    "nodemon": "^1.11.0",
+    "typescript": "^2.0.6"
+  }
+}
