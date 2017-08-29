@@ -84,9 +84,9 @@ app.post("/", async(req, res) => {
 
 
 app.get('/',  async(req, res) => {
-  let a = await makeRequest();
-  console.log(req.body.text)
-  res.json(JSON.parse(a))
+  // let a = await makeRequest();
+  // console.log(req.body.text)
+  res.send("HEYA!")
 })
 
 
