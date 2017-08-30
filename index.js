@@ -6,7 +6,7 @@ const bodyParser = require('body-parser');
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
-let token = "xoxp-232471139621-232395355108-231805754385-44716cbfff957e642bab2a2931692a58";
+let token = "xoxp-232471139621-232395355108-232999984416-888746b1fc427cf5087046aaf38ce5fc";
 
 const getJson = (reqData) => {
   return rp.post(reqData);
