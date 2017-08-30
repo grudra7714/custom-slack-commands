@@ -42,6 +42,9 @@
     "twilio": "^2.11.1",
     "uuid": "^3.0.1"
   },
+  "engines": {
+    "node": ">= 7.6.0"
+  },
   "devDependencies": {
     "@types/body-parser": "0.0.33",
     "@types/debug": "0.0.29",
