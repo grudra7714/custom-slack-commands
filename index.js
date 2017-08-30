@@ -6,7 +6,8 @@ const bodyParser = require('body-parser');
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
-let token = "xoxp-232471139621-232395355108-232999984416-888746b1fc427cf5087046aaf38ce5fc";
+let token = process.env.slack_token;
+console.log("slack_token", token);
 
 const getJson = (reqData) => {
   return rp.post(reqData);
