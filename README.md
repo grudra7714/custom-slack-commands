@@ -1,2 +1,2 @@
-# custom-slack-commandsdas
+# custom-slack-commands
 dsa
