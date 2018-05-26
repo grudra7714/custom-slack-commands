@@ -1,0 +1,30 @@
+{
+	"title": "Krumbot's config",
+	"version": "v0.0.1-dev",
+	"controls": {
+		"issue": {
+			"create": {
+				"from_label": {
+					"labels": ["ready for dev"],
+				},
+				"from_comment": false,
+				"close_parent_issue": true
+			},
+			"extras": {
+				"remind": true,
+				"notify_users_on_slack": true,
+				"check_for_exceptions": true
+			}
+		},
+		"pull_request": {
+			"checks": {
+				"minimum_pull_request_req": true
+			},
+			"extras": {
+				"remind": true,
+				"notify_users_on_slack": true,
+				"check_for_exceptions": true
+			}
+		}
+	}
+}
