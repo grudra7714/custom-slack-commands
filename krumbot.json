@@ -5,7 +5,7 @@
 		"issue": {
 			"create": {
 				"from_label": {
-					"labels": ["ready for dev"],
+					"labels": ["ready for dev"]
 				},
 				"from_comment": false,
 				"close_parent_issue": true
