@@ -12,7 +12,7 @@
 			},
 			"extras": {
 				"remind": true,
-				"notify_users_on_slack": false,
+				"notify_users_on_slack": true,
 				"check_for_exceptions": true
 			}
 		},
